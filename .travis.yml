@@ -8,4 +8,4 @@ env:
 script:
   - docker login -u $DOCKER_USER -p $DOCKER_PASS
   - docker build . -t freeacs/nginx
-  - docker push freeacs/ngnix
+  - docker push freeacs/nginx
